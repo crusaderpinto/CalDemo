@@ -79,158 +79,72 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btd.setOnClickListener(this);
     }
 
+    private void processData(){
+        if (op == false) {
+            no1 = Long.parseLong(txt.getText().toString());
+            if (no1>Integer.MAX_VALUE) {
+                txt.setText(String.valueOf(no1).substring(0,String.valueOf(no1).length() - 1));
+            }
+        } else {
+            no2 = Long.parseLong(txt.getText().toString());
+            if (no2>Integer.MAX_VALUE) {
+                txt.setText(String.valueOf(no2).substring(0,String.valueOf(no2).length() - 1));
+            }
+        }
+    }
+
     @Override
     public void onClick(View v) {
 
         if (v == bt0) {
             t = txt.getText().toString();
             txt.setText(t + "0");
-            if (op == false) {
-                no1 = Long.parseLong(txt.getText().toString());
-                if (no1>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no1).substring(0,String.valueOf(no1).length() - 1));
-                }
-            } else {
-                no2 = Long.parseLong(txt.getText().toString());
-                if (no2>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no2).substring(0,String.valueOf(no2).length() - 1));
-                }
-            }
+            processData();
         }
         if (v == bt1) {
             t = txt.getText().toString();
             txt.setText(t + "1");
-            if (op == false) {
-                no1 = Long.parseLong(txt.getText().toString());
-                if (no1>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no1).substring(0,String.valueOf(no1).length() - 1));
-                }
-            } else {
-                no2 = Long.parseLong(txt.getText().toString());
-                if (no2>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no2).substring(0,String.valueOf(no2).length() - 1));
-                }
-            }
+            processData();
         }
         if (v == bt2) {
             t = txt.getText().toString();
             txt.setText(t + "2");
-            if (op == false) {
-                no1 = Long.parseLong(txt.getText().toString());
-                if (no1>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no1).substring(0,String.valueOf(no1).length() - 1));
-                }
-            } else {
-                no2 = Long.parseLong(txt.getText().toString());
-                if (no2>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no2).substring(0,String.valueOf(no2).length() - 1));
-                }
-            }
+            processData();
         }
         if (v == bt3) {
             t = txt.getText().toString();
             txt.setText(t + "3");
-            if (op == false) {
-                no1 = Long.parseLong(txt.getText().toString());
-                if (no1>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no1).substring(0,String.valueOf(no1).length() - 1));
-                }
-            } else {
-                no2 = Long.parseLong(txt.getText().toString());
-                if (no2>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no2).substring(0,String.valueOf(no2).length() - 1));
-                }
-            }
+            processData();
         }
         if (v == bt4) {
             t = txt.getText().toString();
             txt.setText(t + "4");
-            if (op == false) {
-                no1 = Long.parseLong(txt.getText().toString());
-                if (no1>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no1).substring(0,String.valueOf(no1).length() - 1));
-                }
-            } else {
-                no2 = Long.parseLong(txt.getText().toString());
-                if (no2>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no2).substring(0,String.valueOf(no2).length() - 1));
-                }
-            }
+            processData();
         }
         if (v == bt5) {
             t = txt.getText().toString();
             txt.setText(t + "5");
-            if (op == false) {
-                no1 = Long.parseLong(txt.getText().toString());
-                if (no1>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no1).substring(0,String.valueOf(no1).length() - 1));
-                }
-            } else {
-                no2 = Long.parseLong(txt.getText().toString());
-                if (no2>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no2).substring(0,String.valueOf(no2).length() - 1));
-                }
-            }
+            processData();
         }
         if (v == bt6) {
             t = txt.getText().toString();
             txt.setText(t + "6");
-            if (op == false) {
-                no1 = Long.parseLong(txt.getText().toString());
-                if (no1>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no1).substring(0,String.valueOf(no1).length() - 1));
-                }
-            } else {
-                no2 = Long.parseLong(txt.getText().toString());
-                if (no2>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no2).substring(0,String.valueOf(no2).length() - 1));
-                }
-            }
+            processData();
         }
         if (v == bt7) {
             t = txt.getText().toString();
             txt.setText(t + "7");
-            if (op == false) {
-                no1 = Long.parseLong(txt.getText().toString());
-                if (no1>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no1).substring(0,String.valueOf(no1).length() - 1));
-                }
-            } else {
-                no2 = Long.parseLong(txt.getText().toString());
-                if (no2>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no2).substring(0,String.valueOf(no2).length() - 1));
-                }
-            }
+            processData();
         }
         if (v == bt8) {
             t = txt.getText().toString();
             txt.setText(t + "8");
-            if (op == false) {
-                no1 = Long.parseLong(txt.getText().toString());
-                if (no1>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no1).substring(0,String.valueOf(no1).length() - 1));
-                }
-            } else {
-                no2 = Long.parseLong(txt.getText().toString());
-                if (no2>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no2).substring(0,String.valueOf(no2).length() - 1));
-                }
-            }
+            processData();
         }
         if (v == bt9) {
             t = txt.getText().toString();
             txt.setText(t + "9");
-            if (op == false) {
-                no1 = Long.parseLong(txt.getText().toString());
-                if (no1>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no1).substring(0,String.valueOf(no1).length() - 1));
-                }
-            } else {
-                no2 = Long.parseLong(txt.getText().toString());
-                if (no2>Integer.MAX_VALUE) {
-                    txt.setText(String.valueOf(no2).substring(0,String.valueOf(no2).length() - 1));
-                }
-            }
+            processData();
         }
         if (v == btc) {
             reset();
@@ -294,7 +208,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void resultForwardToNo1() {
-        no1 = Integer.parseInt(txt.getText().toString());
+        no1 = Long.parseLong(txt.getText().toString());
 
     }
 
