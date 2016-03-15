@@ -209,7 +209,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void resultForwardToNo1() {
         no1 = Long.parseLong(txt.getText().toString());
-
     }
 
     private void forwardToTextTwo() {
